@@ -1,0 +1,34 @@
+
+.category-page {
+    padding: 25px;
+    background: #f4f6f9;
+    min-height: 100vh;
+}
+
+.category-page h1 {
+    color: #172554;
+    margin-bottom: 20px;
+}
+
+.category-page input {
+    padding: 12px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+}
+
+.category-page button {
+    padding: 10px 15px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.category-item {
+    background: white;
+    padding: 15px;
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;
+}

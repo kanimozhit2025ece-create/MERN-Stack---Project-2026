@@ -15,10 +15,7 @@ const Sidebar=() =>{
                 <li>Profile</li>
             </ul>
 
-            <div className="sidebar-bottom">
-                <p>Settings</p>
-                <p>Logout</p>
-            </div>
+           
 
         </aside>
     );
