@@ -5,6 +5,7 @@ import Signup from './auth/Signup';
 import DepartmentManagement from './pages/DepartmentManagement';
 import IssueCategories from './pages/IssueCategories';
 import Settings from './pages/Settings';
+import Logout from './auth/Logout';
 const App=() =>{
     return (
         <Routes>
@@ -13,6 +14,7 @@ const App=() =>{
             <Route path="/departments" element={<DepartmentManagement />} />
             <Route path="/categories" element={<IssueCategories />} />
             <Route path="/settings" element={<Settings />} />
+            <Route path="/logout" element={<Logout />} />
         </Routes>
     );
 }
