@@ -1,4 +1,4 @@
-function IssueCard({ title, location, category, priority, status }) {
+const IssueCard=({ title, location, category, priority, status })=> {
 
     return (
         <div className="issue-card">

@@ -1,4 +1,6 @@
-function Navbar() {
+import { Link } from 'react-router-dom';
+
+const Navbar = () => {
 
     return (
         <nav className="navbar">
@@ -7,8 +9,15 @@ function Navbar() {
                 <h2>PublicInfra</h2>
             </div>
 
+            <div className="nav-menu">
+                <Link to="/departments">Department Management</Link>
+                <Link to="/categories">Issue Categories</Link>
+                <Link to="/settings">Settings</Link>
+                <Link to="/logout">Logout</Link>
+            </div>
+
             <div className="nav-user">
-                <span>Welcome, User</span>
+                <p>Welcome, User</p>
 
                 <div className="user-avatar">
                     U
@@ -17,6 +26,6 @@ function Navbar() {
 
         </nav>
     );
-}
+};
 
 export default Navbar;

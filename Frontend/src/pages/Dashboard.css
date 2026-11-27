@@ -6,24 +6,40 @@
 
 .dashboard {
     min-height: 100vh;
-    background: #f4f6f9;
+    background: #628ecf;
     font-family: Arial, sans-serif;
 }
 
 .navbar {
     height: 65px;
     background: #172554;
-    color: white;
+    color: rgb(255, 255, 255);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 0 25px;
+    gap:25px;
+    
 }
 
 .nav-user {
     display: flex;
     align-items: center;
     gap: 12px;
+    color: white;
+}
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    color: white;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    white-space: nowrap;
 }
 
 .user-avatar {
@@ -79,11 +95,12 @@
     background: white;
     padding: 20px;
     border-radius: 8px;
-    display: flex;
+    display:flex;
     justify-content: space-between;
     gap: 15px;
     margin-bottom: 25px;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .system-info {
@@ -98,7 +115,7 @@
 }
 
 .dashboard-heading p {
-    color: #64748b;
+    color: #945d2a;
     margin-top: 5px;
 }
 

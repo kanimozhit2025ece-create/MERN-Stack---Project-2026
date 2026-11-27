@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-function SystemBanner() {
+const SystemBanner=()=> {
 
     const [time, setTime] = useState(new Date());
 

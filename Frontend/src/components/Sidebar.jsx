@@ -1,4 +1,4 @@
-function Sidebar() {
+const Sidebar=() =>{
 
     return (
         <aside className="sidebar">

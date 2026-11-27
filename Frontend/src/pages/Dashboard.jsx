@@ -4,7 +4,7 @@ import SystemBanner from '../components/SystemBanner';
 import IssueCard from '../components/IssueCard';
 import './Dashboard.css';
 
-function Dashboard() {
+const Dashboard=() =>{
 
     const issues = [
         {
@@ -30,6 +30,14 @@ function Dashboard() {
             category: 'Electricity',
             priority: 'Low',
             status: 'Resolved'
+        },
+         {
+            id: 4,
+            title: 'Insufficient Water-Supply',
+            location: 'Chennai',
+            category: 'Water Supply',
+            priority: 'High',
+            status: 'Pending'
         }
     ];
 
@@ -43,13 +51,14 @@ function Dashboard() {
         <Sidebar />
 
         <main className="dashboard-main">
-
-       <SystemBanner />
-
     <div className="dashboard-heading">
      <h1>Dashboard</h1>
      <p>Public Infrastructure Issue Overview</p>
     </div>
+
+       <SystemBanner />
+
+    
 
     <div className="stats-container">
 
